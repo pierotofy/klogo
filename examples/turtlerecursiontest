@@ -1,0 +1,68 @@
+penup();
+pd();
+setpensize(5);
+setpencolor([255 255 255]);
+forward(20);
+FD(15);
+backward(10);
+lt(3.3);
+rightturn(5.323);
+showturtle();
+hideturtle();
+setposition([20 -35]);
+setheading(25);
+
+print(position());
+print(heading());
+
+
+number sum(number a number b){
+	print("Ready to sum... ");
+	return a+b;
+	print("Should not be executed");
+}
+
+print("now declared\n");
+
+print("sum: ");
+print(sum(5 3));
+
+% Veeery slow!
+number fibonacci(number i){
+	ifelse (i == 0 or i == 1){
+		return i;
+	}{
+		return fibonacci(i - 1) + fibonacci(i - 2);
+	}
+} 
+
+number totalNumbers;
+make totalNumbers 15;
+print("\n");
+print("First ");
+print(totalNumbers);
+print(" numbers of fibonacci sequence: ");
+for { i 0 totalNumbers }{
+	print(fibonacci(i));
+	print(" ");
+}
+
+number a;
+make a 10;
+
+for { i 0 a 2}{
+	if (i == 4){
+		print("It's number 4!!");	
+	}
+	print(i);
+	print("\n");
+}
+
+list myList;
+make myList [a "hello" [ 2 3 4] ];
+
+print(myList);
+
+number b;
+make b a * (10 + 4) / 5;
+print(b);

@@ -1,0 +1,12 @@
+void func(){
+	print("In func\n");
+
+	void func2(){
+		print("In func2\n");
+	}	
+
+	func2();	
+}
+
+func();
+

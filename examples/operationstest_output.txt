@@ -1,0 +1,24 @@
+Begin parsing of operationstest... 
+Done!
+-----------
+a: [ "first element" 5 "hello" [ ] True ]
+number?(a) False
+string?(a) False
+list?(a) True
+boolean?(a) False
+first("bc"): b
+first(a): first element
+rest("abc"): bc
+rest(a): [ 5 "hello" [ ] True ]
+empty?(a): False
+empty?(""): True
+nth(4 a): True
+nth(2 a): hello
+nth(4 nth(2 a)): o
+equal?("hello" nth(2 a)): True
+b: [ 5 "hello" [ ] True ]
+equal?(b rest(a)): True
+b: [ 5 "hello" [ 1 2 ] True ]
+equal?(b rest(a)): False
+-----------
+Goodbye!

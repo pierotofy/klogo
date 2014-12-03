@@ -1,0 +1,27 @@
+Begin parsing of turtlerecursiontest... 
+Done!
+-----------
+Pen is up
+Pen is down
+Set pen size: 5
+Set pen color: [ 255 255 255 ]
+Moving turtle forward 20 steps
+Moving turtle forward 15 steps
+Moving turtle backward 10 steps
+Moving turtle left 3.3 degrees
+Moving turtle right 5.323 degrees
+Now showing turtle
+Now hiding turtle
+Set position: [ 20 -35 ]
+Set heading: 25
+[ ]11.11now declared
+sum: Ready to sum... 8
+First 15 numbers of fibonacci sequence: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 0
+2
+It's number 4!!4
+6
+8
+10
+[ 10 "hello" [ 2 3 4 ] ]28
+-----------
+Goodbye!

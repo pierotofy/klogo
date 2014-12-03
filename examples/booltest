@@ -1,0 +1,20 @@
+bool a;
+bool b;
+make a true;
+make b false;
+
+if (not b){
+	print("In first if\n");
+}
+if (a and b){
+	print("Should not be printed");
+}
+if (a or b){
+	print("In third if\n");
+}
+if (not (a and b)){
+	print("In fourth if\n");
+}
+if (not a or not b){
+	print("In fifth if\n");
+}

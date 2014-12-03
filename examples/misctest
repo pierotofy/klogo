@@ -1,0 +1,58 @@
+number power(number n number power){
+	number a;
+	make a n;
+	for { i 1 power-1 }{
+		make n n * a;
+	}
+	return n;
+}
+
+% Slow!
+number factorial(number n){
+	ifelse (n == 1){ return 1; }
+	{ return n * factorial(n -1); }
+}
+
+list generateList(number a number b number c){
+	list p;
+	make p [a b c];
+	return p;
+}
+
+void printList(list a string separator){
+	while(not empty?(a)){
+		print(first(a));
+		make a rest(a);
+		if (not empty?(a)){ print(separator); }
+	}
+}
+
+print("myList = generateList(10 20 30): ");
+list myList;
+make myList generateList(10 20 30);
+printList(myList " - ");
+
+print("\n");
+print("5 ^ 2 = ");
+print(power(5 2));
+print("\n");
+print("5! = ");
+print(factorial(5));
+print("\n");
+number x;
+make x -8.3e-3;
+print("Complex expression: ");
+print(abs(nth(2 myList) * x / (factorial(5) + power(7 2)) - sin(250)));
+print("\n");
+print("Count from 1 to 10: ");
+for { i 1 10 }{
+	print(i);
+	print(" ");
+}
+print("\n");
+print("Count from 10 to 1 skip 2: ");
+for { i 10 1 2 }{
+	print(i);
+	print(" ");
+}
+print("\n");

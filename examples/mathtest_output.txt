@@ -1,0 +1,23 @@
+Begin parsing of mathtest... 
+Done!
+-----------
+a: -20.4
+abs(a): 20.4
+minus(a): 20.4
+round(a): -20
+ceil(a): -20
+floor(a): -21
+cos(a): 0.0203508
+sin(a): -0.999793
+tan(a): -49.1278
+arctan(a): -1.52182
+ln(3): 1.09861
+exp(a): 1.38163e-09
+random (1): 0.545149
+random (1): 0.709166
+random (5): 3
+random (5.0): 0
+Combined operations: -1.43523
+
+-----------
+Goodbye!

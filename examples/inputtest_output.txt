@@ -1,0 +1,13 @@
+Begin parsing of inputtest...
+Done!
+-----------
+Type in your name: piero toffanin
+Hello piero toffanin!
+Type the list: [255 "hey" [] ["1" 2 3 True False [true]] -23.3E-5]
+Your entered: [ 255 "hey" [ ] [ "1" 2 3 True False [ True ] ] -0.000233 ]
+Do you want to display information about the list (y/n)? Y
+The first item is: 255
+The other items are: [ "hey" [ ] [ "1" 2 3 True False [ True ] ] -0.000233 ]
+-----------
+Goodbye!
+

@@ -1,0 +1,8 @@
+Begin parsing of nestedfunctiontest... 
+Done!
+-----------
+In func
+In func2
+
+-----------
+Goodbye!

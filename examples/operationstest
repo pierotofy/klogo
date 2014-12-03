@@ -1,0 +1,77 @@
+list a;
+make a ["first element" 5 "hello" [] true];
+print("a: ");
+print(a);
+print("\n");
+
+print("number?(a) ");
+print(number?(a));
+print("\n");
+
+print("string?(a) ");
+print(string?(a));
+print("\n");
+
+print("list?(a) ");
+print(list?(a));
+print("\n");
+
+print("boolean?(a) ");
+print(boolean?(a));
+print("\n");
+
+print("first(\"bc\"): ");
+print(first("bc"));
+print("\n");
+
+print("first(a): ");
+print(first(a));
+print("\n");
+
+print("rest(\"abc\"): ");
+print(rest("abc"));
+print("\n");
+
+print("rest(a): ");
+print(rest(a));
+print("\n");
+
+print("empty?(a): ");
+print(empty?(a));
+print("\n");
+
+print("empty?(\"\"): ");
+print(empty?(""));
+print("\n");
+
+print("nth(4 a): ");
+print(nth(4 a));
+print("\n");
+
+print("nth(2 a): ");
+print(nth(2 a));
+print("\n");
+
+print("nth(4 nth(2 a)): ");
+print(nth(4 nth(2 a)));
+print("\n");
+
+print("equal?(\"hello\" nth(2 a)): ");
+print(equal?("hello" nth(2 a)));
+print("\n");
+
+list b;
+make b [5 "hello" [] true];
+print("b: ");
+print(b);
+print("\n");
+print("equal?(b rest(a)): ");
+print(equal?(b rest(a)));
+print("\n");
+
+make b [5 "hello" [1 2] true];
+print("b: ");
+print(b);
+print("\n");
+print("equal?(b rest(a)): ");
+print(equal?(b rest(a)));

@@ -1,0 +1,4 @@
+list a;
+make a [2 5 6];
+print(nth(2 a));
+print(nth(3 a));

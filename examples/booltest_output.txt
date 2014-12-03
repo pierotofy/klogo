@@ -1,0 +1,10 @@
+Begin parsing of booltest... 
+Done!
+-----------
+In first if
+In third if
+In fourth if
+In fifth if
+
+-----------
+Goodbye!

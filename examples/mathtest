@@ -1,0 +1,70 @@
+number a;
+make a -20.4;
+
+print("a: ");
+print(a);
+print("\n");
+
+print("abs(a): ");
+print(abs(a));
+print("\n");
+
+print("minus(a): ");
+print(minus(a));
+print("\n");
+
+print("round(a): ");
+print(round(a));
+print("\n");
+
+print("ceil(a): ");
+print(ceil(a));
+print("\n");
+
+print("floor(a): ");
+print(floor(a));
+print("\n");
+
+print("cos(a): ");
+print(cos(a));
+print("\n");
+
+print("sin(a): ");
+print(sin(a));
+print("\n");
+
+print("tan(a): ");
+print(tan(a));
+print("\n");
+
+print("arctan(a): ");
+print(arctan(a));
+print("\n");
+
+print("ln(3): ");
+print(ln(3));
+print("\n");
+
+print("exp(a): ");
+print(exp(a));
+print("\n");
+
+print("random (1): ");
+print(random(1));
+print("\n");
+
+print("random (1): ");
+print(random(1));
+print("\n");
+
+print("random (5): ");
+print(random(5));
+print("\n");
+
+print("random (5.0): ");
+print(random(5));
+print("\n");
+
+print("Combined operations: ");
+print(sin(random(abs(-5))) + cos(tan(3 * 5)) - floor(3.5));
+print("\n");

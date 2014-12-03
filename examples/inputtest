@@ -1,0 +1,25 @@
+number num;
+string name;
+list values;
+
+print("Type in your name: ");
+make name read(string);
+print("Hello ");
+print(name);
+print("!\n");
+
+print("Type the list: ");
+make values read(list);
+print("Your entered: ");
+print(values);
+print("\n");
+
+print("Do you want to display information about the list (y/n)? ");
+string choice;
+make choice read(string);
+if (equal?(choice "y") or equal?(choice "Y")){
+	print("The first item is: ");
+	print(first(values));
+	print("\nThe other items are: ");
+	print(rest(values));	
+}

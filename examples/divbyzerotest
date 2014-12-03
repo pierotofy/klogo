@@ -1,0 +1,7 @@
+number a;
+make a 10;
+number b;
+make b 5;
+number c;
+make c random(10) / (a - b - 5);
+print(c);
