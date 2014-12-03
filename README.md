@@ -23,4 +23,4 @@ Notes
 =====
 The /examples directory contains some scripts that show some of the features of the laguage. This compiler is a proof of concept mainly developed for learning purposes and should be threated as such.
 
-(C) Piero Toffanin 2011
+© Piero Toffanin 2011
